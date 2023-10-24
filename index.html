@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+    <form action="action_page.php">
+        <label for="fName">Imię:</label><br>
+        <input type="text" name="fname" id="fName">
+        <br>
+        <label for="lName">Nazwisko:</label><br>
+        <input type="text" name="lName" id="lName">
+        <br>
+        <label for="phoneNumber">Numer telefonu:</label><br>
+        <input type="text" name="phoneNumber" id="phoneNumber"><br>
+    </form>
+
+    <br><br>
+    
+    <button id="showMe">Wyświetl dane</button>
+    <div id="container">
+        <p>Dane:</p>
+        <p id="name"></p>
+        <p id="surname"></p>
+        <p id="phone"></p>
+    </div>
+
+    <script src="js/main.js"></script>
+
+</body>
+</html>
