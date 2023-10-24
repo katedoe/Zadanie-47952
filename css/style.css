@@ -1,0 +1,19 @@
+body {
+  /*   background-color: rgb(86, 114, 86); */
+    background-image: url(img/background-space-galaxy-picture.jpg);
+    background-size: cover;
+    color: white;
+    font-weight: 700;
+}
+
+#showMe {
+    color: blue;
+    font-weight: 600;
+    font-style: italic;
+}
+
+#container {
+background-color: azure;
+color: blueviolet;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
